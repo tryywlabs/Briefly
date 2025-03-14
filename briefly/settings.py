@@ -46,9 +46,9 @@ NEWS_API_KEY = env("NEWS_API_KEY", default=None)
 newsapi_client = NewsApiClient(api_key=NEWS_API_KEY)
 SECRET_KEY = str(os.getenv('SECRET_KEY'))
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["18.133.30.243"]
 
 
 # Application definition
